@@ -16,6 +16,9 @@ interface InfoString {
     language: string;
     // noBranch: string;
     noSessionName: string;
+	permissionMode:string,
+    planMode: string;
+    freeMode: string;
     // cost: string;
     // sessionName: string;
     // context: string;
@@ -33,6 +36,9 @@ const infoStringMap: Record<Language, InfoString> = {
         language: "语言",
         // noBranch: "没有Git分支",
         noSessionName: "未命名会话",
+		permissionMode:"权限",
+        planMode: "计划",
+        freeMode: "自由",
         // sessionName: "会话名称",
         // context: "上下文",
     },
@@ -48,6 +54,9 @@ const infoStringMap: Record<Language, InfoString> = {
         language: "Language",
         // noBranch: "No git branch",
         noSessionName: "unamed session",
+		permissionMode:"Permission",
+        planMode: "Plan",
+        freeMode: "Free",
         // sessionName: "Session Name",
         // context: "context",
     },
