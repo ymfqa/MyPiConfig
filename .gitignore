@@ -4,3 +4,4 @@ sessions/
 *.log
 /*.json
 .language
+.permission
